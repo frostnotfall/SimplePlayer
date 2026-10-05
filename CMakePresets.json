@@ -1,0 +1,14 @@
+{
+  "version": 6,
+  "configurePresets": [{
+    "name": "windows-x64", "displayName": "MSVC x64 / Qt 6.8.3",
+    "generator": "Ninja", "binaryDir": "${sourceDir}/build",
+    "cacheVariables": {
+      "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+      "CMAKE_PREFIX_PATH": "${sourceDir}/.deps/Qt/6.8.3/msvc2022_64",
+      "CMAKE_INSTALL_PREFIX": "${sourceDir}/dist/SimplePlayer"
+    }
+  }],
+  "buildPresets": [{"name": "windows-x64", "configurePreset": "windows-x64"}],
+  "testPresets": [{"name": "windows-x64", "configurePreset": "windows-x64", "output": {"outputOnFailure": true}}]
+}

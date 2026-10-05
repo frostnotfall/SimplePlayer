@@ -1,0 +1,25 @@
+.deps/
+.tools/
+.local/
+build/
+dist/
+data/
+CMakeUserPresets.json
+*.user
+__pycache__/
+aqtinstall.log
+release/
+.vs/
+*.log
+*.dmp
+*.pdb
+*.obj
+*.env
+.env.*
+**/webview2/
+!player/src/accounts/webview2/
+
+# Local development documentation
+/docs/
+/CHANGELOG.md
+/packaging/RELEASE-v0.1.0.md

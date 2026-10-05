@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "application": {"name":"SimplePlayer","version":"0.1.0","license":"GPL-3.0-only"},
+  "dependencies": [
+    {"name":"Qt","version":"6.8.3","source":"https://download.qt.io/archive/qt/6.8/6.8.3/"},
+    {"name":"AngelScript","version":"2.38.0","source":"https://www.angelcode.com/angelscript/sdk/files/angelscript_2.38.0.zip"},
+    {"name":"JsonCpp","version":"1.9.6","source":"https://github.com/open-source-parsers/jsoncpp/tree/1.9.6"},
+    {"name":"zlib","version":"1.3.1","source":"https://github.com/madler/zlib/tree/v1.3.1"},
+    {"name":"libass","version":"0.17.5","source":"https://github.com/libass/libass/tree/0.17.5","vcpkgBaseline":"1460b31b08c42cc2e9ac2c79f45ec8707e2675e2"},
+    {"name":"WebView2 SDK","version":"1.0.3124.44","source":"https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3124.44"},
+    {"name":"MPCVR subtitle interface","version":"0.9.7","source":"https://github.com/Aleksoid1978/VideoRenderer/tree/0.9.7"},
+    {"name":"LAV DirectShow base classes","version":"0.80","source":"https://github.com/Nevcairiel/LAVFilters/tree/0.80","localAdjustments":"bootstrap.ps1 removes two redundant class qualifiers for modern MSVC"},
+    {"name":"MPC Audio Renderer","version":"1.9.1","source":"https://github.com/Aleksoid1978/MPC-BE/releases/tag/1.9.1","archiveSHA1":"F7EAB6A55B6491512F97C1B7560D81E6F2326075"}
+  ],
+  "scriptBaseline": {"project":"https://github.com/frostnotfall/BilibiliPotPlayer","commit":"07a06f272278f602e65af3fa3acba7d217eecb56","redistributed":false},
+  "externalFilters": "User-selected x64 LAV, MPCVR and optional BFRC; binary versions must be recorded for each validation run",
+  "releaseStatus": "Development build; not a completed P6 portable distribution"
+}
